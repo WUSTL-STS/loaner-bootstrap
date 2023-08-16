@@ -11,7 +11,7 @@ if (-Not (Test-Path "$env:ProgramData\chocolatey")) {
 }
 
 # Install JDK and Eclipse using Chocolatey
-choco install git github-desktop oraclejdk eclipse -y
+choco install git github-desktop oraclejdk eclipse gh -y
 
 Write-Host "Installed required software for 131. Don't forget your personal access token!"
 
