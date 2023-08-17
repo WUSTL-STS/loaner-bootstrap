@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Check if Git is installed
-if ! command -v git &>/dev/null; then
-	echo "Git not found. Installing Git..."
-	xcode-select --install
-fi
-
 # Check if Homebrew is already installed
 if ! command -v brew &>/dev/null; then
 	echo "Homebrew not found. Installing Homebrew..."
