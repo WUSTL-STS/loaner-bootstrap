@@ -18,6 +18,7 @@ The following classes are currently supported on Windows:
 
 ## Running Scripts on Macos (Ventura)
 
+0. First check to make sure the software is not already installed! If not, continue
 1. Log into the STS loaner accout
 2. Open Settings -> Users
 3. Make stsloaner an administrator using the IT Admin account
@@ -26,4 +27,6 @@ The following classes are currently supported on Windows:
 5. Open Terminal
 6. Type `chmod +x ` (note the space after x) and then drag the file into terminal from the download folder, then hit enter
 7. Then, drag the file in again (without writing anything beforehand), and hit enter
-8. Just wait! This should take around 8min
+    - At the point where it asks for a sudo password, enter the stsloaner password
+8. Just wait! This should take around 10min. Which is a long time, but then you're not waiting around for the client to pull up canvas and grab their install links, which takes just as long anyways!
+9. When it's done, remove the admin privileges from the stsloaner account and restart the computer
